@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+     <div id="copy-toast">Copied!</div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#coursework" class="nav-link">Coursework</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#coding" class="nav-link">Coding</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home/Introduction Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm <span class="gradient-text">Yogesh Kumar</span></h1>
+                <p class="hero-subtitle">Computer Engineering Student</p>
+                <p class="hero-description">I am a Full-Stack Developer and Software enthusiast.
+                     My work reflects a strong understanding 
+                      of software engineering fundamentals, including abstraction, modularity, performance 
+                      considerations, and real-world API constraints.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Clickable Resume Preview -->
+                <div class="resume-preview-container" id="resumePreview">
+                    <div class="resume-preview-image">
+                        <!-- Replace 'resume-preview.jpg' with your actual resume screenshot -->
+                        <img src="./asset/image.png" alt="My Resume" class="resume-img">
+                        <div class="resume-overlay">
+                            <i class="fas fa-eye"></i>
+                            <p>Click to View Resume</p>
+                        </div>
+                    </div>
+                    <div class="resume-badge">
+                        <i class="fas fa-file-alt"></i>
+                        <a href="https://drive.google.com/file/d/1huIwyRhLNs9xKlSitWYkYPJdNvHmyF9T/view?usp=drive_link" target="_blank"
+                            style="text-decoration: none;"><span>Resume</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Bachelor of Technology in <span style="color: orange;">Computer Engineering</span></h3>
+                        <p class="education-institution">NIT Kurukstera</p>
+                        <p class="education-date">2023 - 2027</p>
+                        <div class="cgpa-container">
+                            <div class="cgpa-badge">
+                                <i class="fas fa-award"></i>
+                                <div>
+                                    <span class="cgpa-label">CGPA</span>
+                                    <span class="cgpa-value">9.2875 / 10</span>
+                                </div>
+                            </div>
+                        </div>
+                       <p> <i class="fas fa-medal"></i> Joint Branch Topper: 10/10 GPA in 3rd Semester</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Senior Secondary Education</h3>
+                        <p class="education-institution">Board of School Education Haryana</p>
+                        <p class="education-date">2020</p>
+                        <div class="cgpa-container">
+                            <div class="cgpa-badge">
+                                <i class="fas fa-award"></i>
+                                <div>
+                                    <span class="cgpa-label">Percentage</span>
+                                    <span class="cgpa-value">93%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coursework Section -->
+    <section id="coursework" class="coursework">
+        <div class="container">
+            <h2 class="section-title">Key Coursework</h2>
+            <div class="coursework-container">
+                <div class="coursework-category">
+                    <h3 class="coursework-category-title">
+                        <i class="fas fa-laptop-code"></i>
+                        Technical
+                    </h3>
+                    <div class="coursework-list">
+                        <div class="coursework-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Opearating Systems</span>
+                        </div>
+                        <div class="coursework-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Database Management Systems</span>
+                        </div>
+                        <div class="coursework-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Computer Networks</span>
+                        </div>
+                        <div class="coursework-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Software Engineering</span>
+                        </div>
+                        <div class="coursework-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>System Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="coursework-category">
+                    <h3 class="coursework-category-title">
+                        <i class="fas fa-brain"></i>
+                        Core Computer Science
+                    </h3>
+                    <div class="coursework-list">
+                        <div class="coursework-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Data Structures & Algorithms</span>
+                        </div>
+                        <div class="coursework-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Object Oriented Programming</span>
+                        </div>
+                        <div class="coursework-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Theory of Computation</span>
+                        </div>
+                        <div class="coursework-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Compiler Design</span>
+                        </div>
+                        <div class="coursework-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Computer Architecture</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="coursework-category">
+                    <h3 class="coursework-category-title">
+                        <i class="fas fa-project-diagram"></i>
+                        Advanced Topics
+                    </h3>
+                    <div class="coursework-list">
+                        <div class="coursework-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Data Mining and Analytics</span>
+                        </div>
+                        <div class="coursework-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Machine Learning</span>
+                        </div>
+                        <div class="coursework-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Artificial Intelligence & Soft Computing</span>
+                        </div>
+                        <div class="coursework-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Distributed Computing</span>
+                        </div>
+                        <!-- <div class="coursework-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Cyber Security</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+<section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Proficiency</h2>
+            <div class="skills-container">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <h3 class="category-title">Programming Languages</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fab fa-java skill-icon-small"></i>
+                                <span>C++</span>
+                            </div>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fas fa-copyright skill-icon-small"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fab fa-python skill-icon-small"></i>
+                                <span>Python</span>
+                            </div>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="65"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fab fa-js skill-icon-small"></i>
+                                <span>Java</span>
+                            </div>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="60"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skill-category">
+                    <h3 class="category-title">Web Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fab fa-react skill-icon-small"></i>
+                                <span>React</span>
+                            </div>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fab fa-node skill-icon-small"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="65"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fab fa-html5 skill-icon-small"></i>
+                                <span>HTML/CSS</span>
+                            </div>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database & Tools -->
+                <div class="skill-category">
+                    <h3 class="category-title">Database & Tools</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fas fa-database skill-icon-small"></i>
+                                <span>MySQL</span>
+                            </div>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fas fa-leaf skill-icon-small"></i>
+                                <span>MongoDB</span>
+                            </div>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fab fa-git-alt skill-icon-small"></i>
+                                <span>Git & GitHub</span>
+                            </div>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Core CS Concepts -->
+                <div class="skill-category">
+                    <h3 class="category-title">Core CS Concepts</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fas fa-project-diagram skill-icon-small"></i>
+                                <span>Data Structures & Algorithms</span>
+                            </div>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fas fa-server skill-icon-small"></i>
+                                <span>Database Management Systems</span>
+                            </div>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fas fa-sitemap skill-icon-small"></i>
+                                <span>System Design</span>
+                            </div>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <div class="skill-name">
+                                <i class="fas fa-cogs skill-icon-small"></i>
+                                <span>Operating Systems</span>
+                            </div>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>B+ Tree Database Implementation</h3>
+                    <p>Implemented a B+ Tree indexing system in C++ for efficient database queries with advanced
+                        insertion and deletion algorithms.</p>
+                    <div class="project-tags">
+                        <span class="tag">C++</span>
+                        <span class="tag">Data Structures</span>
+                        <span class="tag">Algorithms</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Algorithm Visualizer</h3>
+                    <p>Interactive web application to visualize sorting and searching algorithms with step-by-step
+                        execution and performance metrics.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">Visualization</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Distributed System Simulator</h3>
+                    <p>Simulation of distributed algorithms including global state detection and consensus protocols for
+                        educational purposes.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Networking</span>
+                        <span class="tag">Simulation</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <!-- Coding Profiles Section -->
+    <section id="coding" class="coding-profiles">
+        <div class="container">
+            <h2 class="section-title">Coding Profiles</h2>
+
+            <!-- LeetCode Stats -->
+            <div class="coding-platform">
+                <div class="platform-header">
+                    <i class="fas fa-code leetcode-icon"></i>
+                    <h3>LeetCode Statistics</h3>
+                </div>
+                <div class="leetcode-stats">
+                    <div class="leetcode-card">
+                        <div class="stat-circle easy">
+                            <div class="circle-content">
+                                <span class="stat-value" id="easySolved">150</span>
+                                <span class="stat-total">/ 200</span>
+                            </div>
+                        </div>
+                        <h4>Easy</h4>
+                        <div class="progress-bar">
+                            <div class="progress-fill easy-fill" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="leetcode-card">
+                        <div class="stat-circle medium">
+                            <div class="circle-content">
+                                <span class="stat-value" id="mediumSolved">120</span>
+                                <span class="stat-total">/ 300</span>
+                            </div>
+                        </div>
+                        <h4>Medium</h4>
+                        <div class="progress-bar">
+                            <div class="progress-fill medium-fill" style="width: 40%"></div>
+                        </div>
+                    </div>
+                    <div class="leetcode-card">
+                        <div class="stat-circle hard">
+                            <div class="circle-content">
+                                <span class="stat-value" id="hardSolved">30</span>
+                                <span class="stat-total">/ 150</span>
+                            </div>
+                        </div>
+                        <h4>Hard</h4>
+                        <div class="progress-bar">
+                            <div class="progress-fill hard-fill" style="width: 20%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="leetcode-extra-stats">
+                    <div class="extra-stat">
+                        <i class="fas fa-trophy"></i>
+                        <div>
+                            <h4>Contest Rating</h4>
+                            <p class="stat-number">1700+</p>
+                        </div>
+                    </div>
+                    <div class="extra-stat">
+                        <i class="fas fa-fire"></i>
+                        <div>
+                            <h4>Current Streak</h4>
+                            <p class="stat-number">45 Days</p>
+                        </div>
+                    </div>
+                    <div class="extra-stat">
+                        <i class="fas fa-chart-line"></i>
+                        <div>
+                            <h4>Total Solved</h4>
+                            <p class="stat-number">700+</p>
+                        </div>
+                    </div>
+                    <div class="extra-stat">
+                        <i class="fas fa-star"></i>
+                        <div>
+                            <h4>Global Ranking</h4>
+                            <p class="stat-number">Top 5%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://leetcode.com/" target="_blank" class="btn btn-leetcode">
+                    <i class="fas fa-external-link-alt"></i> View LeetCode Profile
+                </a>
+            </div>
+            <!-- Other Coding Platforms -->
+            <div class="other-platforms">
+                <h3>Other Coding Platforms</h3>
+                <div class="platform-badges">
+                    <a href="https://codeforces.com/profile/yourusername" target="_blank" class="platform-badge">
+                        <i class="fas fa-trophy"></i>
+                        <div>
+                            <h4>Codeforces</h4>
+                            <p>Specialist (1450+)</p>
+                        </div>
+                    </a>
+                    <a href="https://www.hackerrank.com/yourusername" target="_blank" class="platform-badge">
+                        <i class="fas fa-code"></i>
+                        <div>
+                            <h4>HackerRank</h4>
+                            <p>5 Star (Gold)</p>
+                        </div>
+                    </a>
+                    <a href="https://auth.geeksforgeeks.org/user/yourusername" target="_blank" class="platform-badge">
+                        <i class="fas fa-laptop-code"></i>
+                        <div>
+                            <h4>GeeksforGeeks</h4>
+                            <p>500+ Problems</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- GitHub Contribution Graph -->
+    <div class="coding-platform github-section">
+        <div class="platform-header">
+            <i class="fab fa-github"></i>
+            <h3>GitHub Contributions</h3>
+        </div>
+
+        <div class="github-graph-container">
+            <img src="https://ghchart.rshah.org/its-Yogesh123" alt="GitHub Contribution Graph" class="github-chart">
+        </div>
+
+        <div class="github-stats">
+            <div class="github-stat-card">
+                <i class="fas fa-code-branch"></i>
+                <h4>Total Repositories</h4>
+                <p class="stat-number">45</p>
+            </div>
+            <div class="github-stat-card">
+                <i class="fas fa-star"></i>
+                <h4>Total Stars</h4>
+                <p class="stat-number">230</p>
+            </div>
+            <div class="github-stat-card">
+                <i class="fas fa-code-commit"></i>
+                <h4>Total Commits (2025)</h4>
+                <p class="stat-number">850+</p>
+            </div>
+        </div>
+
+        <div class="contribution-heatmap">
+            <h4>Contribution Activity</h4>
+            <div class="heatmap-legend">
+                <span>Less</span>
+                <div class="legend-boxes">
+                    <div class="legend-box level-0"></div>
+                    <div class="legend-box level-1"></div>
+                    <div class="legend-box level-2"></div>
+                    <div class="legend-box level-3"></div>
+                    <div class="legend-box level-4"></div>
+                </div>
+                <span>More</span>
+            </div>
+            <div class="heatmap-grid" id="heatmapGrid">
+                <!-- Generated by JavaScript -->
+            </div>
+        </div>
+
+        <a href="https://github.com/yourusername" target="_blank" class="btn btn-github">
+            <i class="fab fa-github"></i> View GitHub Profile
+        </a>
+    </div>
+    <!-- YouTube Section -->
+    <section id="youtube" class="youtube">
+        <div class="container">
+            <h2 class="section-title">YouTube Channel</h2>
+            <div class="youtube-content">
+                <div class="youtube-icon-large">
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <h3>Content Creator</h3>
+                <p class="youtube-description">
+                    As a YouTube content creator, I'm responsible for developing educational content focused on
+                    programming tutorials, algorithm explanations, and tech career guidance. I create weekly videos
+                    breaking down complex computer science concepts into digestible lessons, helping students and
+                    aspiring developers understand DSA, coding interview preparation, and software development best
+                    practices.</p>
+                <div class="youtube-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-video"></i>
+                        <div class="stat-number">80+</div>
+                        <div class="stat-label">Videos</div>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-users"></i>
+                        <div class="stat-number">29</div>
+                        <div class="stat-label">Subscribers</div>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-eye"></i>
+                        <div class="stat-number">5000+</div>
+                        <div class="stat-label">Views</div>
+                    </div>
+                </div>
+                <a href="https://youtube.com/@yourchannel" target="_blank" class="btn btn-youtube">
+                    <i class="fab fa-youtube"></i> Visit Channel
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-subtitle">Feel free to reach out for collaborations, opportunities, or just to say hi!</p>
+            <div class="social-links">
+                <a href="https://github.com/yourusername" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="mailto:your.email@example.com" class="social-link email-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                    <span class="phone-tooltip email-tooltip">
+                        yogesh.developer@gmail.com
+                    </span>
+                </a>
+                <a class="social-link phone-link">
+                    <i class="fas fa-phone" onclick="copyNumber(event, '+919876543210')"></i>
+                    <span onclick="copyNumber(event, '+919876543210')">Phone</span>
+                    <span class="phone-tooltip">
+                        +91 98765 43210
+                    </span>
+                </a>
+                <a href="https://youtube.com/@yourchannel" target="_blank" class="social-link">
+                    <i class="fab fa-youtube"></i>
+                    <span>YouTube</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Yogesh Kumar. All rights reserved.</p>
+        <p>Crafted with ❤️ & Code | Last Updated: December 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function copyNumber(event, number) {
+            event.stopPropagation();
+            navigator.clipboard.writeText(number).then(() => {
+                const toast = document.getElementById('copy-toast');
+                toast.classList.add('show');
+
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                }, 1500);
+            });
+        }
+    </script>
+
+</body>
+
+
+</html>
